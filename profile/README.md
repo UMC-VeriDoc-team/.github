@@ -8,7 +8,7 @@
 <br/>
 
 <div align="center">
-  <img src="/assets/logo.svg" alt="VeriDoc Logo" width="200" style="border-radius: 10px;"/>
+  <img src="./assets/logo.svg" alt="VeriDoc Logo" width="300" style="border-radius: 10px;"/>
 </div>
 
 <br/>

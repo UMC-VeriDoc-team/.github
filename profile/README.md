@@ -1,14 +1,7 @@
 ### VeriDoc - 사용자 맞춤형 의료 정보 큐레이션 서비스
 
 <div align="center">
-  <h1>VeriDoc (베리닥)</h1>
-  <p>🩺 넘쳐나는 정보 속, 당신을 위한 단 하나의 검증된 의료 가이드 🩺</p>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="./assets/logo.svg" alt="VeriDoc Logo" width="300" style="border-radius: 10px;"/>
+  <img src="./assets/veridoc-intro.svg" alt="VeriDoc Logo" />
 </div>
 
 <br/>
@@ -66,6 +59,21 @@
 ### **3. 위치 기반 병원 추천**
 - 선택한 증상과 연관된 진료과 병원 중, 사용자 위치에서 가장 가까운 TOP 3 정보를 추천합니다.
 
+<table>
+  <tr>
+    <td><img src="./assets/1.svg" width="100%" /></td>
+    <td><img src="./assets/2.svg" width="100%" /></td>
+    <td><img src="./assets/3.svg" width="100%" /></td>
+    <td><img src="./assets/4.svg" width="100%" /></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/5.svg" width="100%" /></td>
+    <td><img src="./assets/6.svg" width="100%" /></td>
+    <td><img src="./assets/7.svg" width="100%" /></td>
+    <td><img src="./assets/8.svg" width="100%" /></td>
+  </tr>
+</table>
+
 ---
 
 ## ⚙️ 기술 스택
@@ -79,30 +87,84 @@
   </thead>
   <tbody>
     <tr>
-      <td>프론트엔드</td>
+      <td>Frontend</td>
       <td>
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"/>
         <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white"/>
-      </td>
-    </tr>
-    <tr>
-      <td>백엔드</td>
-      <td>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"/>
         <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white"/>
       </td>
     </tr>
     <tr>
-      <td>협업 도구</td>
+      <td>Backend</td>
       <td>
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white"/>
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white"/>
+        <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Nodemailer-0A66C2?style=flat"/>
       </td>
     </tr>
+    <tr>
+      <td>Infrastructure</td>
+      <td>
+        <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazon-s3&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PM2-2B037A?style=flat"/>
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Database</td>
+      <td>
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+      </td>
+    </tr>
+    <tr>
+      <td>DevOps</td>
+      <td>
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SSH-000000?style=flat"/>
+      </td>
+    </tr>
+    <tr>
+      <td>External API</td>
+      <td>
+        <img src="https://img.shields.io/badge/Kakao_Map_API-FFCD00?style=flat&logo=kakao&logoColor=black"/>
+        <img src="https://img.shields.io/badge/Google_SMTP-EA4335?style=flat&logo=gmail&logoColor=white"/>
+      </td>
+    </tr>
+
   </tbody>
 </table>
 
+
 ---
+
+## 🛠️ 시스템 아키텍처
+<div align="center">
+  <img src="./assets/system-architecture.svg" alt="VeriDoc System Architecture" style="border-radius: 10px;"/>
+</div>
+
+---
+
+## 👥 팀원 소개
+
+| 이름 | 역할 |
+| --- | --- |
+| [주니마니정/정준희](https://github.com/jjh-98) | ![PM(Team Lead)](https://img.shields.io/badge/PM(Team%20Lead)-FF5A5F?style=for-the-badge) |
+| 리버/임지윤 | ![Designer](https://img.shields.io/badge/Designer-FFC107?style=for-the-badge) |
+| [밍/김민지](https://github.com/min-minnn) | ![Frontend Lead](https://img.shields.io/badge/Frontend%20Lead-38BDF8?style=for-the-badge) |
+| [블루/강민석](https://github.com/Mallandaine) | ![Frontend](https://img.shields.io/badge/Frontend-38BDF8?style=for-the-badge) |
+| [여비/김준엽](https://github.com/junyeop22) | ![Frontend](https://img.shields.io/badge/Frontend-38BDF8?style=for-the-badge) |
+| [윤/정윤주](https://github.com/dbswn0) | ![Frontend](https://img.shields.io/badge/Frontend-38BDF8?style=for-the-badge) |
+| [토리/이윤재](https://github.com/Yoonjae0923) | ![Backend Lead](https://img.shields.io/badge/Backend%20Lead-22C55E?style=for-the-badge) |
+| [진이/차현진](https://github.com/Coconut-lab) | ![Backend](https://img.shields.io/badge/Backend-22C55E?style=for-the-badge) |
+| [다니/김다니엘](https://github.com/jagabi816) | ![Backend](https://img.shields.io/badge/Backend-22C55E?style=for-the-badge) |
+| [몬트/안상현](https://github.com/ashB1124) | ![Backend](https://img.shields.io/badge/Backend-22C55E?style=for-the-badge) |
+| [딤봉/최규찬](https://github.com/DimbongCHOI) | ![Backend](https://img.shields.io/badge/Backend-22C55E?style=for-the-badge) |
+
+
+

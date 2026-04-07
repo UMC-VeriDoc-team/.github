@@ -1,4 +1,4 @@
-### VeriDoc - 사용자 맞춤형 의료 정보 큐레이션 서비스
+### VeriDoc - 증상 중심 헬스케어 큐레이션 서비스
 
 <div align="center">
   <img src="./assets/veridoc-intro.svg" alt="VeriDoc Logo" />
